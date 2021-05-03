@@ -4,5 +4,5 @@ Dice roll is a dice casino-style based game. The whole programming is in HTML, C
 
 This is a simple dice game with much simple game rules:
 
--All you have to do is roll the dice and try to avoid the number 1 otherwise your opponent player wins;
+- All you have to do is roll the dice and try to avoid the number 1 otherwise your opponent player wins;
 - Wins the player that reaches 20 points.
