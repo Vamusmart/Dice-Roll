@@ -1,37 +1,49 @@
 body {
   background-color: black;
-  margin: 4px;
+  margin: 4rem;
   text-align: center;
+}
+
+main { 
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1rem, 1fr));
+
+}
+
+body, html{
+  height: 100%;
 }
 
 /*Style button RollDice*/
 button {
   background-color: red;
-  border-radius: 6px;
+  border-radius: 1rem;
   border: none;
   color: rgb(248, 248, 248);
-  padding: 10px;
+  padding: 2rem;
   text-transform: uppercase;
-  width: 400px;
-  height: 120px;
+  width: 20rem;
+  height: 8rem;
   cursor: grab;
   font-family: "Monoton", cursive;
-  font-size: 4vh;
+  font-size: 2rem;
   border-style: double;
 }
 
 #myImage {
-  border-radius: 15px;
+  border-radius: 1rem;
+  block-size: 12rem;
 }
 
 /*Style Div above the button RollDice*/
 div.a {
-  padding-top: 1vh;
+  padding-top: 6rem;
   text-align: center;
-  background-position: center;
+  background-position: top;
   background-image: url("https://thumbs.gfycat.com/CompleteCornyGalago-size_restricted.gif");
   background-repeat: no-repeat;
   background-color: black;
+  background-size: 15rem;
 }
 
 /*Style button RollDice*/
@@ -39,9 +51,9 @@ div.a {
 #placeholder2 {
   height: 15vh;
   width: 15vh;
-  margin: 200px auto;
-  border-radius: 10px;
-  font-size: 50px;
+  margin: 2rem auto;
+  border-radius: 1rem;
+  font-size: 1rem;
   background-color: white;
 }
 
@@ -78,7 +90,7 @@ h3 {
 
 .wrapper {
   display: grid;
-  grid-gap: 2px;
+  grid-gap: 1rem;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas:
@@ -92,10 +104,12 @@ h3 {
   color: #fff;
   border-radius: 5px;
   padding: 1px;
-  font-size: 5vh;
+  font-size: 1rem;
 }
 
 .header,
 .footer {
   background-color: black;
 }
+
+
