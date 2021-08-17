@@ -9,9 +9,9 @@ This is a simple dice game with much simple game rules:
 
 
 # Implementation
-JavaScript knowledge of using variables and event listeners.
-Using JavaScript functions such as Math.random()
-Knowledge of HTML and CSS
+- JavaScript knowledge of using variables and event listeners.
+- Using JavaScript functions such as Math.random()
+- Knowledge of HTML and CSS
 
 # Environment
 
